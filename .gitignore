@@ -1,0 +1,13 @@
+# OS Images
+*.iso
+*.img
+
+# Virtual Machine files
+*.vdi
+*.vmdk
+*.qcow2
+*.ova
+
+# Build artifacts
+/out/
+/dist/
