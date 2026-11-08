@@ -1,0 +1,1 @@
+post-invoke "/usr/local/sbin/pulseos-logo-guard >/dev/null 2>&1 || true"
