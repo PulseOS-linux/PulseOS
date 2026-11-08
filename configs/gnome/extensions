@@ -1,0 +1,29 @@
+# Настройки расширений GNOME в PulseOS
+
+Ниже представлен список всех установленных расширений и их состояние по умолчанию.
+
+## Пользовательские расширения
+- [x] **Blur my Shell** (`blur-my-shell@aunetx`)
+- [x] **Caffeine** (`caffeine@patapon.info`)
+- [x] **Compiz alike magic lamp effect** (`compiz-alike-magic-lamp-effect@hermes83.github.com`)
+- [x] **Compiz windows effect** (`compiz-windows-effect@hermes83.github.com`)
+- [ ] **Dash to Dock** (`dash-to-dock@micxgx.gmail.com`) — *выключено, так как используется Dash to Panel*
+- [x] **Dash to Panel** (`dash-to-panel@jderose9.github.com`)
+- [x] **Desktop Cube** (`desktop-cube@schneegans.github.com`)
+- [x] **Desktop Widgets (Desktop Clock)** (`azclock@azclock.gitlab.com`)
+- [x] **Emoji Copy** (`emoji-copy@felipeftn`)
+- [x] **Gnome Clipboard** (`gnome-clipboard@b00f.github.io`)
+- [x] **Lock Keys** (`lockkeys@vaina.lt`)
+- [x] **Status Tray** (`status-tray@keithvassallo.com`)
+- [x] **User Avatar In Quick Settings** (`quick-settings-avatar@d-go`)
+- [x] **User Themes** (`user-theme@gnome-shell-extensions.gcampax.github.com`)
+
+## Системные расширения
+- [x] **Desktop Icons NG (DING)** (`ding@rastersoft.com`)
+- [x] **Myna Dictation Indicator** (`myna-shell@canonical.com`)
+- [ ] **SNAPD Permission Prompting** (`snapd-prompting@canonical.com`)
+- [ ] **Snap Search Provider** (`snap-search-provider@canonical.com`)
+- [x] **Ubuntu Appindicators** (`ubuntu-appindicators@ubuntu.com`)
+- [ ] **Ubuntu Dock** (`ubuntu-dock@ubuntu.com`) — *выключено для чистоты системы*
+- [ ] **Ubuntu Tiling Assistant** (`tiling-assistant@ubuntu.com`)
+- [x] **Web Search Provider** (`web-search-provider@ubuntu.com`)
