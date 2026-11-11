@@ -1,0 +1,28 @@
+name: Telegram Commit Notification
+
+on:
+  push:
+    branches: [ main ] # ВНИМАНИЕ: Если твоя основная ветка называется master, замени main на master
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send commit message to Telegram
+        uses: appleboy/telegram-action@master
+        with:
+          to: ${{ secrets.TELEGRAM_CHAT_ID }}
+          token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          format: html
+          message: |
+            🇷🇺 <b>Новое изменение в репозитории!</b>
+            <b>Репозиторий:</b> ${{ github.repository }}
+            <b>Автор:</b> ${{ github.actor }}
+            <b>Сообщение коммита:</b> ${{ github.event.head_commit.message }}
+            <a href="https://github.com/${{ github.repository }}/commit/${{ github.sha }}">Посмотреть изменения</a>
+
+            🇬🇧 <b>New change in repository!</b>
+            <b>Repository:</b> ${{ github.repository }}
+            <b>Author:</b> ${{ github.actor }}
+            <b>Commit message:</b> ${{ github.event.head_commit.message }}
+            <a href="https://github.com/${{ github.repository }}/commit/${{ github.sha }}">View changes</a>
