@@ -3,9 +3,8 @@
 ## Phase 1: Base System Configuration (Current)
 - [x] Choose base (Ubuntu devel branch)
 - [x] Configure nala
-- [ ] Setup zram and earlyoom
-- [ ] Install and configure gaming kernel
-- [x] Create a script/wrapper to block `apt upgrade` and suggest `dist-upgrade`
+- [x] Setup zram and earlyoom
+- [x] Create a script/wrapper to block `apt upgrade` and suggest `dist-upgrade` 
 
 ## Phase 2: Build System & Installer
 - [ ] Master Penguin Eggs (Penguin's Chef)
